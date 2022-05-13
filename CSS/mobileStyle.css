@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  header .bookImage img {
+    padding-top: 118px;
+  }
+  .main .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .data .cover {
+    background-position: -25vmin -10vmin;
+    height: 50vmin;
+  }
+  .data .numbers .rect {
+    width: 15rem;
+    height: 8rem;
+  }
+  .data .numbers .rect h2 {
+    font-size: 2rem;
+  }
+  .download {
+    height: inherit;
+    padding: 1vmin !important;
+  }
+  .download .desktop {
+    text-align: center !important;
+  }
+  .download .desktop .text-left {
+    font-size: 15px;
+  }
+  .team {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+  }
+  .team .carousel-inner {
+    width: 25rem;
+  }
+  .footer .column i + i {
+    padding: 0;
+  }
+}
